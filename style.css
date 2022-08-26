@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-size: 62.5%;
+
+  text-decoration: none;
+}
+
+body,
+html {
+  width: 100%;
+}
+
+body {
+  
+  background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* overflow: overlay; */
+}
+
+.wrapper {
+  width: 40rem;
+  height: 100%;
+  margin-inline: auto;
+  
+}
+
+header .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  padding-block: 1.8rem;
+}
+
+header .links {
+  visibility: hidden;
+}
+
+header .open-menu {
+  background: none;
+
+  border: none;
+}
+
+header button svg path {
+  stroke: #ecd6c4;
+}
+
+.content {
+  text-align: center;
+
+  border-top: 0.4px solid #FFF2E7;
+
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.intro-text h1 {
+  font-size: 5rem;
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+
+  color: #fff2e7;
+}
+
+.intro-text h2 {
+  font-size: 2rem;
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+
+  color: #ecd6c4;
+
+  width: 60%;
+}
+
+.intro button {
+  font-size: 2rem;
+  font-family: 'Sarala', sans-serif;
+
+  border: none;
+  border-radius: 1.5rem;
+
+  padding: 0.7rem;
+
+  color: #2f2325;
+
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+
+  background: #ecd6c4;
+}
+
+.intro img {
+  width: 20rem;
+  padding-top: 2rem;
+}
+
+.function-bot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  padding-top: 3rem;
+}
+
+.function-bot h2 {
+  font-size: 2.5rem;
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+
+  color: #fff2e7;
+
+  border-top: 0.4px solid #FFF2E7;
+
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.function-bot p {
+  font-size: 1.5rem;
+  font-family: 'Sarala', sans-serif;
+
+  color: #ecd6c4;
+
+  width: 80%;
+}
+
+.function-bot p strong {
+  font-size: 1.5rem;
+}
+
+footer {
+  text-align: center;
+
+  padding-block: 4rem;
+
+  border-top: 0.4px solid #FFF2E7;
+}
+
+footer svg {
+  width: 55%;
+}
